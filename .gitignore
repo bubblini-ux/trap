@@ -1,0 +1,33 @@
+# Secrets & Environment
+.env
+*.env.local
+*.key
+*.pem
+*.ovpn
+wg*.conf
+device.config
+
+# Packet Captures & Field Logs (Never commit raw captures!)
+*.pcap
+*.pcapng
+*.cap
+*.hccapx
+*.hc22000
+*.kismet
+*.kismet-journal
+*.log
+
+# OS & Editor Artifacts
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python / Script Artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
